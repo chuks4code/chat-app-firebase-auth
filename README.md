@@ -1,50 +1,75 @@
-# Welcome to your Expo app 👋
+# 📱 Real-Time Chat App (React Native Expo  + Firebase)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern real-time chat application built with **React Native (Expo Router)** and **Firebase**, supporting global chat, private messaging, typing indicators, unread badges, and real-time presence tracking.
+---
 
-## Get started
+##  Features
 
-1. Install dependencies
+###  Authentication
+- Email & Password authentication (Firebase Auth)
+- Password reset functionality
+- Secure login & logout flow
+- Route protection using custom AuthContext
 
-   ```bash
-   npm install
-   ```
+###  Real-Time Messaging
+- Global chat room
+- Private 1-on-1 chat
+- Real-time message updates using Firestore
+- Message timestamps
+- Auto-scroll to latest message
 
-2. Start the app
+###  Presence & Status
+- Online user tracking
+- Real-time online count in global chat
+- Typing indicators in private chat
+- Read tracking (lastRead timestamps)
 
-   ```bash
-   npx expo start
-   ```
+###  Unread Notifications
+- Unread message badge per private conversation
+- Automatically clears when chat is opened
 
-In the output, you'll find options to open the app in a
+###  Mobile UX Improvements
+- Keyboard-aware chat input (no overlap)
+- Custom navigation headers
+- Smooth layout handling across iOS & Android
+- Clean UI with grouped message bubbles
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+##  Tech Stack
 
-## Get a fresh project
+- **React Native (Expo)**
+- **Expo Router**
+- **Firebase Authentication**
+- **Cloud Firestore**
+- **React Context API**
+- **TypeScript**
+- **NativeWind / Tailwind styling**
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 📂 Project Structure
+app/
+├── (app)/
+│ ├── chat/[id].tsx
+│ ├── users.tsx
+├── signIn.tsx
+├── signUp.tsx
+context/
+├── authContext.tsx
+FirebaseConfig.js
+components/
+├── MyButton.tsx
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📈 Future Improvements
 
-To learn more about developing your project with Expo, look at the following resources:
+- Push notifications
+- Message delivery status (sent / delivered / read)
+- Profile pictures
+- Chat list screen with previews
+- Media attachments
+- Production build deployment
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
