@@ -74,9 +74,9 @@ components/
 
 ---
 **Screenshots** 
-<img width="1344"  src="https://github.com/user-attachments/assets/7aed3f42-174a-47ee-a906-8fb2dd6e8fb2" />
-<img width="1344"  src="https://github.com/user-attachments/assets/0deabb8a-17ee-4b77-b741-f0f43ce538bc" />
-<img width="1344"  src="https://github.com/user-attachments/assets/83619b1e-d81b-44f1-aaff-9c53993e0b78" />
-<img width="1344"  src="https://github.com/user-attachments/assets/09867da3-8c7a-469a-b3b6-48bf0b1e927a" />
+<img width="250"  src="https://github.com/user-attachments/assets/7aed3f42-174a-47ee-a906-8fb2dd6e8fb2" />
+<img width="250"  src="https://github.com/user-attachments/assets/0deabb8a-17ee-4b77-b741-f0f43ce538bc" />
+<img width="250"  src="https://github.com/user-attachments/assets/83619b1e-d81b-44f1-aaff-9c53993e0b78" />
+<img width="250"  src="https://github.com/user-attachments/assets/09867da3-8c7a-469a-b3b6-48bf0b1e927a" />
 
 
